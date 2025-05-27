@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Run tests in parallel
-        run: npx npm-run-all --parallel test:ui test:api && npm run report
+        run: npx npm-run-all --parallel test:ui test:api
       
       - name: Run tests
         run: npm test
