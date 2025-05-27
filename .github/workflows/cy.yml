@@ -25,11 +25,8 @@ jobs:
 
       - name: Install Playwright browsers
         run: npx playwright install
-  
-      - name: Run tests in parallel
-        run: npx npm-run-all --parallel test:ui test:api
       
-      - name: Run tests
+      - name: Run tests in parallel
         run: npm test
         env:
           CI: true
