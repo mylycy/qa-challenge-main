@@ -30,9 +30,3 @@ jobs:
         run: npm test
         env:
           CI: true
-
-      - name: Upload playwright report
-        uses: actions/upload-artifact@v3
-        with:
-          name: playwright-report
-          path: playwright-report/
