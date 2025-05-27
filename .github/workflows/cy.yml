@@ -31,14 +31,6 @@ jobs:
         env:
           CI: true
 
-      - name: Upload Playwright report
-        if: always()
-        uses: actions/upload-artifact@v3
-
-        with:
-          name: cucumber-report
-          path: reports/cucumber-report.html
-
       - name: Upload playwright report
         uses: actions/upload-artifact@v3
         with:
