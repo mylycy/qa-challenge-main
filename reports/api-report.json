@@ -1,0 +1,311 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "listar-usuários-e-validar-dados-da-api;listar-usuários-da-página-2-e-validar-estrutura-da-resposta",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Listar usuários da página 2 e validar estrutura da resposta",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 657151200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "faça uma requisição GET para page=2",
+            "match": {
+              "location": "features\\api\\step-definitions\\api.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304451098
+            },
+            "embeddings": [
+              {
+                "data": "ewogICJwYWdlIjogMiwKICAicGVyX3BhZ2UiOiA2LAogICJ0b3RhbCI6IDEyLAogICJ0b3RhbF9wYWdlcyI6IDIsCiAgImRhdGEiOiBbCiAgICB7CiAgICAgICJpZCI6IDcsCiAgICAgICJlbWFpbCI6ICJtaWNoYWVsLmxhd3NvbkByZXFyZXMuaW4iLAogICAgICAiZmlyc3RfbmFtZSI6ICJNaWNoYWVsIiwKICAgICAgImxhc3RfbmFtZSI6ICJMYXdzb24iLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy83LWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDgsCiAgICAgICJlbWFpbCI6ICJsaW5kc2F5LmZlcmd1c29uQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkxpbmRzYXkiLAogICAgICAibGFzdF9uYW1lIjogIkZlcmd1c29uIiwKICAgICAgImF2YXRhciI6ICJodHRwczovL3JlcXJlcy5pbi9pbWcvZmFjZXMvOC1pbWFnZS5qcGciCiAgICB9LAogICAgewogICAgICAiaWQiOiA5LAogICAgICAiZW1haWwiOiAidG9iaWFzLmZ1bmtlQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIlRvYmlhcyIsCiAgICAgICJsYXN0X25hbWUiOiAiRnVua2UiLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy85LWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDEwLAogICAgICAiZW1haWwiOiAiYnlyb24uZmllbGRzQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkJ5cm9uIiwKICAgICAgImxhc3RfbmFtZSI6ICJGaWVsZHMiLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy8xMC1pbWFnZS5qcGciCiAgICB9LAogICAgewogICAgICAiaWQiOiAxMSwKICAgICAgImVtYWlsIjogImdlb3JnZS5lZHdhcmRzQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkdlb3JnZSIsCiAgICAgICJsYXN0X25hbWUiOiAiRWR3YXJkcyIsCiAgICAgICJhdmF0YXIiOiAiaHR0cHM6Ly9yZXFyZXMuaW4vaW1nL2ZhY2VzLzExLWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDEyLAogICAgICAiZW1haWwiOiAicmFjaGVsLmhvd2VsbEByZXFyZXMuaW4iLAogICAgICAiZmlyc3RfbmFtZSI6ICJSYWNoZWwiLAogICAgICAibGFzdF9uYW1lIjogIkhvd2VsbCIsCiAgICAgICJhdmF0YXIiOiAiaHR0cHM6Ly9yZXFyZXMuaW4vaW1nL2ZhY2VzLzEyLWltYWdlLmpwZyIKICAgIH0KICBdLAogICJzdXBwb3J0IjogewogICAgInVybCI6ICJodHRwczovL2NvbnRlbnRjYWRkeS5pbz91dG1fc291cmNlPXJlcXJlcyZ1dG1fbWVkaXVtPWpzb24mdXRtX2NhbXBhaWduPXJlZmVycmFsIiwKICAgICJ0ZXh0IjogIlRpcmVkIG9mIHdyaXRpbmcgZW5kbGVzcyBzb2NpYWwgbWVkaWEgY29udGVudD8gTGV0IENvbnRlbnQgQ2FkZHkgZ2VuZXJhdGUgaXQgZm9yIHlvdS4iCiAgfQp9",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "o status da resposta for 200 e a resposta deve conter uma lista de usuários",
+            "match": {
+              "location": "features\\api\\step-definitions\\api.step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92687199
+            },
+            "embeddings": [
+              {
+                "data": "ewogICJwYWdlIjogMiwKICAicGVyX3BhZ2UiOiA2LAogICJ0b3RhbCI6IDEyLAogICJ0b3RhbF9wYWdlcyI6IDIsCiAgImRhdGEiOiBbCiAgICB7CiAgICAgICJpZCI6IDcsCiAgICAgICJlbWFpbCI6ICJtaWNoYWVsLmxhd3NvbkByZXFyZXMuaW4iLAogICAgICAiZmlyc3RfbmFtZSI6ICJNaWNoYWVsIiwKICAgICAgImxhc3RfbmFtZSI6ICJMYXdzb24iLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy83LWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDgsCiAgICAgICJlbWFpbCI6ICJsaW5kc2F5LmZlcmd1c29uQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkxpbmRzYXkiLAogICAgICAibGFzdF9uYW1lIjogIkZlcmd1c29uIiwKICAgICAgImF2YXRhciI6ICJodHRwczovL3JlcXJlcy5pbi9pbWcvZmFjZXMvOC1pbWFnZS5qcGciCiAgICB9LAogICAgewogICAgICAiaWQiOiA5LAogICAgICAiZW1haWwiOiAidG9iaWFzLmZ1bmtlQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIlRvYmlhcyIsCiAgICAgICJsYXN0X25hbWUiOiAiRnVua2UiLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy85LWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDEwLAogICAgICAiZW1haWwiOiAiYnlyb24uZmllbGRzQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkJ5cm9uIiwKICAgICAgImxhc3RfbmFtZSI6ICJGaWVsZHMiLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy8xMC1pbWFnZS5qcGciCiAgICB9LAogICAgewogICAgICAiaWQiOiAxMSwKICAgICAgImVtYWlsIjogImdlb3JnZS5lZHdhcmRzQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkdlb3JnZSIsCiAgICAgICJsYXN0X25hbWUiOiAiRWR3YXJkcyIsCiAgICAgICJhdmF0YXIiOiAiaHR0cHM6Ly9yZXFyZXMuaW4vaW1nL2ZhY2VzLzExLWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDEyLAogICAgICAiZW1haWwiOiAicmFjaGVsLmhvd2VsbEByZXFyZXMuaW4iLAogICAgICAiZmlyc3RfbmFtZSI6ICJSYWNoZWwiLAogICAgICAibGFzdF9uYW1lIjogIkhvd2VsbCIsCiAgICAgICJhdmF0YXIiOiAiaHR0cHM6Ly9yZXFyZXMuaW4vaW1nL2ZhY2VzLzEyLWltYWdlLmpwZyIKICAgIH0KICBdLAogICJzdXBwb3J0IjogewogICAgInVybCI6ICJodHRwczovL2NvbnRlbnRjYWRkeS5pbz91dG1fc291cmNlPXJlcXJlcyZ1dG1fbWVkaXVtPWpzb24mdXRtX2NhbXBhaWduPXJlZmVycmFsIiwKICAgICJ0ZXh0IjogIlRpcmVkIG9mIHdyaXRpbmcgZW5kbGVzcyBzb2NpYWwgbWVkaWEgY29udGVudD8gTGV0IENvbnRlbnQgQ2FkZHkgZ2VuZXJhdGUgaXQgZm9yIHlvdS4iCiAgfQp9",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "o cada usuário deve conter os campos id, first_name, last_name e email e o email deve estar em um formato válido",
+            "match": {
+              "location": "features\\api\\step-definitions\\api.step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173763898
+            },
+            "embeddings": [
+              {
+                "data": "ewogICJwYWdlIjogMiwKICAicGVyX3BhZ2UiOiA2LAogICJ0b3RhbCI6IDEyLAogICJ0b3RhbF9wYWdlcyI6IDIsCiAgImRhdGEiOiBbCiAgICB7CiAgICAgICJpZCI6IDcsCiAgICAgICJlbWFpbCI6ICJtaWNoYWVsLmxhd3NvbkByZXFyZXMuaW4iLAogICAgICAiZmlyc3RfbmFtZSI6ICJNaWNoYWVsIiwKICAgICAgImxhc3RfbmFtZSI6ICJMYXdzb24iLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy83LWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDgsCiAgICAgICJlbWFpbCI6ICJsaW5kc2F5LmZlcmd1c29uQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkxpbmRzYXkiLAogICAgICAibGFzdF9uYW1lIjogIkZlcmd1c29uIiwKICAgICAgImF2YXRhciI6ICJodHRwczovL3JlcXJlcy5pbi9pbWcvZmFjZXMvOC1pbWFnZS5qcGciCiAgICB9LAogICAgewogICAgICAiaWQiOiA5LAogICAgICAiZW1haWwiOiAidG9iaWFzLmZ1bmtlQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIlRvYmlhcyIsCiAgICAgICJsYXN0X25hbWUiOiAiRnVua2UiLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy85LWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDEwLAogICAgICAiZW1haWwiOiAiYnlyb24uZmllbGRzQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkJ5cm9uIiwKICAgICAgImxhc3RfbmFtZSI6ICJGaWVsZHMiLAogICAgICAiYXZhdGFyIjogImh0dHBzOi8vcmVxcmVzLmluL2ltZy9mYWNlcy8xMC1pbWFnZS5qcGciCiAgICB9LAogICAgewogICAgICAiaWQiOiAxMSwKICAgICAgImVtYWlsIjogImdlb3JnZS5lZHdhcmRzQHJlcXJlcy5pbiIsCiAgICAgICJmaXJzdF9uYW1lIjogIkdlb3JnZSIsCiAgICAgICJsYXN0X25hbWUiOiAiRWR3YXJkcyIsCiAgICAgICJhdmF0YXIiOiAiaHR0cHM6Ly9yZXFyZXMuaW4vaW1nL2ZhY2VzLzExLWltYWdlLmpwZyIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6IDEyLAogICAgICAiZW1haWwiOiAicmFjaGVsLmhvd2VsbEByZXFyZXMuaW4iLAogICAgICAiZmlyc3RfbmFtZSI6ICJSYWNoZWwiLAogICAgICAibGFzdF9uYW1lIjogIkhvd2VsbCIsCiAgICAgICJhdmF0YXIiOiAiaHR0cHM6Ly9yZXFyZXMuaW4vaW1nL2ZhY2VzLzEyLWltYWdlLmpwZyIKICAgIH0KICBdLAogICJzdXBwb3J0IjogewogICAgInVybCI6ICJodHRwczovL2NvbnRlbnRjYWRkeS5pbz91dG1fc291cmNlPXJlcXJlcyZ1dG1fbWVkaXVtPWpzb24mdXRtX2NhbXBhaWduPXJlZmVycmFsIiwKICAgICJ0ZXh0IjogIlRpcmVkIG9mIHdyaXRpbmcgZW5kbGVzcyBzb2NpYWwgbWVkaWEgY29udGVudD8gTGV0IENvbnRlbnQgQ2FkZHkgZ2VuZXJhdGUgaXQgZm9yIHlvdS4iCiAgfQp9",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 485079099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "listar-usuários-e-validar-dados-da-api;criar-um-novo-usuário",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Criar um novo usuário",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 270896200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "a resposta deve retornar status 201 com os dados do usuário criados corretamente e o tempo de resposta deve ser aceitável",
+            "match": {
+              "location": "features\\api\\step-definitions\\api.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457452198
+            },
+            "embeddings": [
+              {
+                "data": "ewogICJuYW1lIjogIm1vcnBoZXVzX3Rlc3QiLAogICJqb2IiOiAibGVhZGVyX3Rlc3QiLAogICJpZCI6ICIyNzUiLAogICJjcmVhdGVkQXQiOiAiMjAyNS0wNS0yN1QyMjoyNDo1OS40ODFaIgp9",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 134503700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "listar-usuários-e-validar-dados-da-api;atualizar-um-usuário-existente",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Atualizar um usuário existente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168971200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "a resposta deve retornar status 201 o usuário deve ser atualizado corretamente e a resposta da API deve estar dentro de limites aceitáveis",
+            "match": {
+              "location": "features\\api\\step-definitions\\api.step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441083700
+            },
+            "embeddings": [
+              {
+                "data": "ewogICJuYW1lIjogIm1vcnBoZXVzIiwKICAiam9iIjogInppb24gcmVzaWRlbnQiLAogICJpZCI6ICI1NTYiLAogICJjcmVhdGVkQXQiOiAiMjAyNS0wNS0yN1QyMjoyNTowMC4yMzZaIgp9",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76307099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "listar-usuários-e-validar-dados-da-api;requisição-delete-para-um-usuário-inexistente",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Requisição DELETE para um usuário inexistente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186951699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "faço envio uma requisição DELETE para o user inexistente a resposta deve retornar status 404 para usuário inexistente",
+            "match": {
+              "location": "features\\api\\step-definitions\\api.step.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442152998
+            },
+            "embeddings": [
+              {
+                "data": "MjA0",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 135698000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "listar-usuários-e-validar-dados-da-api;simulação-de-falha-de-rede-ou-tempo-limite-na-api",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulação de falha de rede ou tempo limite na API",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 193075499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "faço envio uma requisição que excede o tempo limite o sistema deve retornar uma falha de rede ou timeout e lidar corretamente com o erro",
+            "match": {
+              "location": "features\\api\\step-definitions\\api.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10620900
+            },
+            "embeddings": [
+              {
+                "data": "YXBpUmVxdWVzdENvbnRleHQuZ2V0OiBSZXF1ZXN0IHRpbWVkIG91dCBhZnRlciAxbXMKQ2FsbCBsb2c6ChtbMm0gIC0g4oaSIEdFVCBodHRwczovL3JlcXJlcy5pbi9hcGkvdXNlcnMvOTk5ORtbMjJtChtbMm0gICAgLSB1c2VyLWFnZW50OiBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBIZWFkbGVzc0Nocm9tZS8xMzYuMC43MTAzLjI1IFNhZmFyaS81MzcuMzYbWzIybQobWzJtICAgIC0gYWNjZXB0OiAqLyobWzIybQobWzJtICAgIC0gYWNjZXB0LWVuY29kaW5nOiBnemlwLGRlZmxhdGUsYnIbWzIybQobWzJtICAgIC0gQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uG1syMm0KG1sybSAgICAtIHgtYXBpLWtleTogcmVxcmVzLWZyZWUtdjEbWzIybQo=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 121507800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "listar-usuários-e-validar-dados-da-api",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Listar usuários e validar dados da API",
+    "tags": [
+      {
+        "name": "@api",
+        "line": 1
+      }
+    ],
+    "uri": "features\\api\\api.feature"
+  }
+]
