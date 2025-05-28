@@ -1,11 +1,9 @@
-// support/hooks.ts
 import { Before, After, AfterStep, BeforeAll, ITestCaseHookParameter } from '@cucumber/cucumber';
 import { chromium, Browser, BrowserContext } from 'playwright';
 import { CustomWorld } from './world';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-// Variáveis globais para navegador e contexto
 let browser: Browser;
 let context: BrowserContext;
 
@@ -15,18 +13,17 @@ let logs: string[] = [];
 
 BeforeAll(async function () {
   const dir = path.resolve('screenshots');
-  await fs.rm(dir, { recursive: true, force: true }); // Apaga tudo
-  await fs.mkdir(dir, { recursive: true }); // Cria de novo
+  await fs.rm(dir, { recursive: true, force: true }); 
+  await fs.mkdir(dir, { recursive: true }); 
 });
-// 👉 Rodar antes de cada cenário com @ui
+
 Before({ tags: '@ui' }, async function (this: CustomWorld) {
   browser = await chromium.launch({ headless: true });
   context = await browser.newContext();
   this.page = await context.newPage();
-  await this.page.goto('https://www.saucedemo.com/');; // só se quiser já abrir
+  await this.page.goto('https://www.saucedemo.com/');; 
 });
 
-// 👉 Fechar o navegador apenas se foi aberto (só em testes @ui)
 After({ tags: '@ui' }, async function () {
   await browser?.close();
 });
@@ -50,10 +47,8 @@ Before({ tags: '@api' }, async function (this: CustomWorld) {
 
     logs = [];
 
-  // Salva o console.log original
   originalConsoleLog = console.log;
 
-  // Sobrescreve o console.log para capturar as mensagens
   console.log = (...args: any[]) => {
     const message = args.map(arg => {
       if (typeof arg === 'string') return arg;
@@ -66,13 +61,10 @@ Before({ tags: '@api' }, async function (this: CustomWorld) {
 
     logs.push(message);
 
-    // Também imprime no console normalmente
     originalConsoleLog.apply(console, args);
   };
 });
-  //await this.page.goto('https://www.saucedemo.com/');; // só se quiser já abrir
 
-// 👉 Fechar o navegador apenas se foi aberto (só em testes @ui)
 After({ tags: '@api' }, async function () {
   await browser?.close();
 });
@@ -80,7 +72,6 @@ AfterStep({ tags: '@api' }, async function (this: any, testCase: ITestCaseHookPa
 console.log = originalConsoleLog;
 
   if (logs.length > 0) {
-    // Junta todos os logs em uma string só e anexa no relatório
     await this.attach(logs.join('\n'), { mediaType: 'text/plain' });
   }
 });
