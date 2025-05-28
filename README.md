@@ -1,6 +1,6 @@
 # QA Challenge
 
-## Projeto de automação de testes com **Playwright** e **Cucumber**, utilizando **TypeScript**. Os testes são executados em paralelo, com geração automática de relatórios e integração contínua via GitHub Actions.
+#### Projeto de automação de testes com *Playwright* e *Cucumber*, utilizando *TypeScript*. Os testes são executados em paralelo, com geração automática de relatórios e integração contínua via GitHub Actions.
 
 
 ## 🧠 Requisitos Técnicos
@@ -99,10 +99,13 @@ Esses testes realizam chamadas HTTP e validam o comportamento das APIs da aplica
 
 ### 👩‍💻 Tecnologias utilizadas
 
--Playwright
--Cucumber.js
--TypeScript
--GitHub Actions
+- Playwright
+
+- Cucumber.js
+
+- TypeScript
+
+- GitHub Actions
 
 ### 🖥️ Observação
 
