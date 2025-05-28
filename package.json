@@ -10,6 +10,7 @@
   "devDependencies": {
     "@cucumber/cucumber": "^11.3.0",
     "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.52.0",
     "@types/node": "^20.11.30",
     "cucumber-html-reporter": "^5.5.1",
     "del": "^8.0.0",
